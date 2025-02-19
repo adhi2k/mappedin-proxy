@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors()); // Allow cross-origin requests
 
-const MAPPEDIN_API_URL = "https://app.mappedin.com/map/6795e230965a13000bcdfe69?embedded=true"; // Replace with the actual API URL
+const MAPPEDIN_API_URL = "https://api.render.com/deploy/srv-cuqtrclds78s7382o6q0?key=Su-tE1w1Vmc"; // Replace with the actual API URL
 
 // Proxy route
 app.get("/map", async (req, res) => {
